@@ -4,7 +4,8 @@ A full-stack todo application showcasing modern web development with Angular, No
 
 ## 🚀 Live Demo
 
-**Frontend**: [Live App](https://zas-angulartodoapp.netlify.app/) 
+**Frontend**: [Live App](https://zas-angulartodoapp.netlify.app/)
+
 **Backend API**: Deployed on Render
 
 ## 📋 Features
