@@ -1,4 +1,4 @@
-# Angular Todo Application - Complete Documentation
+# Angular Todo Application
 
 ## Project Overview
 
@@ -18,14 +18,7 @@ This is a full-stack Angular Todo Application with a Node.js/Express backend and
 ## Architecture Overview
 
 ### Frontend (Angular)
-Located in: `/todoApp`
-
-**Technologies:**
-- Angular 17+ (Standalone Components)
-- TypeScript
-- Reactive Forms (FormsModule)
-- Angular Signals for state management
-- RxJS for asynchronous operations
+Located in: `/frontend`
 
 **Key Components:**
 1. **AuthShell** - Container for login/register pages
@@ -35,14 +28,7 @@ Located in: `/todoApp`
 5. **Services** - Authentication and todo data management
 
 ### Backend (Node.js/Express)
-Located in: `/todo-backend`
-
-**Technologies:**
-- Express.js REST API
-- MongoDB with Mongoose ODM
-- JWT authentication
-- Bcrypt password hashing
-- Helmet security middleware
+Located in: `/backend`
 
 **Key Components:**
 1. **Controllers** - Request handlers for auth and todos
@@ -58,7 +44,7 @@ Located in: `/todo-backend`
 
 ### Directory Structure
 ```
-todoApp/src/
+frontend/src/
 ├── app/
 │   ├── components/
 │   │   ├── auth-shell/      # Authentication layout container
@@ -168,7 +154,7 @@ todoApp/src/
 
 ### Directory Structure
 ```
-todo-backend/src/
+backend/src/
 ├── controllers/
 │   ├── auth.controller.js       # Authentication endpoints
 │   └── todo.controller.js       # Todo CRUD endpoints
@@ -375,27 +361,27 @@ npm start
 ## Best Practices Implemented
 
 ### Frontend
-- ✅ Standalone components (modern Angular)
-- ✅ Signals for reactive state
-- ✅ Computed properties for derived state
-- ✅ Proper error handling
-- ✅ HTTP interceptors for auth tokens
-- ✅ Route guards for protected routes
-- ✅ Responsive CSS layout
-- ✅ Form validation
-- ✅ Comprehensive JSDoc comments
+- Standalone components (modern Angular)
+- Signals for reactive state
+- Computed properties for derived state
+- Proper error handling
+- HTTP interceptors for auth tokens
+- Route guards for protected routes
+- Responsive CSS layout
+- Form validation
+- Comprehensive JSDoc comments
 
 ### Backend
-- ✅ RESTful API design
-- ✅ Proper HTTP status codes
-- ✅ Error handling middleware
-- ✅ Security headers (Helmet)
-- ✅ CORS configuration
-- ✅ Environment variable management
-- ✅ Password hashing with bcrypt
-- ✅ JWT token authentication
-- ✅ User data isolation (queries filtered by user)
-- ✅ Comprehensive JSDoc comments
+- RESTful API design
+- Proper HTTP status codes
+- Error handling middleware
+- Security headers (Helmet)
+- CORS configuration
+- Environment variable management
+- Password hashing with bcrypt
+- JWT token authentication
+- User data isolation (queries filtered by user)
+- Comprehensive JSDoc comments
 
 ---
 
@@ -537,8 +523,3 @@ Backend can be deployed to:
 - [MongoDB Manual](https://docs.mongodb.com/manual)
 - [JWT Introduction](https://jwt.io/introduction)
 - [REST API Best Practices](https://restfulapi.net)
-
----
-
-**Last Updated**: 2024
-**Version**: 1.0.0

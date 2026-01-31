@@ -2,31 +2,26 @@
 
 A full-stack todo application showcasing modern web development with Angular, Node.js, and MongoDB.
 
-## 🚀 Live Demo
+## Live Demo
 
-**Frontend**: [Live App](https://zas-angulartodoapp.netlify.app/)
+**Frontend**: [Live App](https://zas-angulartodoapp.netlify.app/) \
+**Backend API**: Deployed on Koyeb 
 
-**Backend API**: Deployed on Render
+## Features
 
-## 📋 Features
+- User authentication with JWT
+- Demo mode to test instantly
+- Full CRUD operations for todos
+- Filter by status (pending, in-progress, completed)
+- Priority levels (low, medium, high)
+- Search functionality
+- Responsive design
+- Comprehensive error handling
 
-- ✅ User authentication with JWT
-- ✅ Demo mode for recruiters to test instantly
-- ✅ Full CRUD operations for todos
-- ✅ Filter by status (pending, in-progress, completed)
-- ✅ Priority levels (low, medium, high)
-- ✅ Search functionality
-- ✅ Responsive design
-- ✅ Comprehensive error handling
-
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
-- Angular 17+ (Standalone Components)
-- TypeScript
-- Angular Signals for state management
-- RxJS for async operations
-- Reactive Forms
+- Angular 21
 
 ### Backend
 - Node.js & Express
@@ -35,11 +30,7 @@ A full-stack todo application showcasing modern web development with Angular, No
 - Bcrypt password hashing
 - Helmet security middleware
 
-## 📱 Running Locally
-
-### Prerequisites
-- Node.js 18+
-- MongoDB connection string
+## Running Locally
 
 ### Frontend Setup
 ```bash
@@ -64,15 +55,8 @@ npm start
 # API runs at http://localhost:5000
 ```
 
-## 🎨 Code Quality
 
-- **100% JSDoc Documentation**: All 16 code files fully documented
-- **TypeScript**: Type-safe frontend code
-- **Clean Architecture**: Separation of concerns with services, controllers, and models
-- **Security**: JWT auth, password hashing, CORS, security headers
-- **Professional Standards**: Follows Angular and Node.js best practices
-
-## 📂 Project Structure
+## Project Structure
 
 ```
 angular-todo-app/
@@ -94,7 +78,7 @@ angular-todo-app/
         └── utils/        # Helper functions
 ```
 
-## 🔐 Security Features
+## Security Features
 
 - JWT-based authentication
 - Password hashing with bcrypt (10 rounds)
@@ -104,21 +88,7 @@ angular-todo-app/
 - Helmet security headers
 - Environment variable protection
 
-## 📖 Documentation
+## Documentation
 
 See **PROJECT_DOCUMENTATION.md** for complete architecture details, API endpoints, and code examples.
 
-## 👨‍💻 About
-
-This project was built to demonstrate:
-- Full-stack development skills
-- Modern Angular patterns (Signals, Standalone Components)
-- RESTful API design
-- Authentication and authorization
-- Database design and relationships
-- Professional code documentation
-- Clean, maintainable code
-
----
-
-**Portfolio Project** | Built with Angular & Node.js
