@@ -1,4 +1,4 @@
-# Angular Todo App - Portfolio Project
+# Angular Todo App 
 
 A full-stack todo application showcasing modern web development with Angular, Node.js, and MongoDB.
 
